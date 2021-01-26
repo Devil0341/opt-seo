@@ -71,3 +71,5 @@ aside {
 
 
 The link to the deployed website is below:
+
+[Horiseon Deployed](https://devil0341.github.io/opt-seo/)

@@ -51,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* Renamed .hero to a more friendly id  */
 .background img{
      height: auto;
      width: 100%;
@@ -69,6 +70,7 @@ p {
     margin-left: 25px;
 }
 
+/* This section wrapds the articles */
 section {
     width: 75%;
     display: inline-block;
@@ -92,9 +94,15 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+    /* Needed to add 20px at padding top on the aside */
+    /* Aside wraps the sections */
 aside {
     margin-right: 20px;
-    padding: 20px;
+    
+    /* padding: 20px; this elongated the aside element bottom padding to remain uneven with adjacent elements*/
+    
+    padding-top: 20px;
     clear: both;
     float: right;
     width: 20%;
@@ -113,31 +121,12 @@ aside section h3{
     text-align: center;
 }
 
-
-
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px; 
-}*/
 footer {
     padding: 30px;
     clear: both;
